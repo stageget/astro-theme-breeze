@@ -1,5 +1,5 @@
 ---
-title: Breeze Theme
+title: Breeze Theme123
 description: A minimal Astro theme for personal websites and blogs.
 tech: [Astro, Tailwind CSS, TypeScript]
 link: https://github.com

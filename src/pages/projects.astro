@@ -2,12 +2,16 @@
 import Layout from "@/layouts/Layout.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
+import { getProjects } from "@/utils/post";
 import site from "@/config/site";
 
-const projects = await getCollection("projects");
+const projects = await getProjects();
 ---
 
-<Layout title={site.labels.projectsTitle} description={site.labels.projectsDescription}>
+<Layout
+  title={site.labels.projectsTitle}
+  description={site.labels.projectsDescription}
+>
   <div class="mx-auto max-w-2xl p-8 md:p-16">
     <header class="mb-16">
       <h2 class="mb-4 text-3xl font-bold tracking-tight">
