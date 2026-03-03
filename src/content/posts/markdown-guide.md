@@ -4,6 +4,7 @@ createdAt: 2025-01-02
 category: technology
 tags: [markdown, tutorial]
 summary: A guide to all supported Markdown features in Breeze theme.
+draft: true
 ---
 
 This post demonstrates the Markdown features supported by the Breeze theme.
@@ -18,7 +19,7 @@ This is a sub-heading that also appears in the TOC.
 
 ## Text Formatting
 
-You can use **bold**, *italic*, ~~strikethrough~~, and `inline code`.
+You can use **bold**, _italic_, ~~strikethrough~~, and `inline code`.
 
 ## Code Blocks
 
@@ -51,11 +52,11 @@ greet("Breeze");
 
 ## Tables
 
-| Feature | Status |
-|---------|--------|
+| Feature   | Status    |
+| --------- | --------- |
 | Dark Mode | Supported |
-| Search | Supported |
-| RSS | Supported |
+| Search    | Supported |
+| RSS       | Supported |
 
 ## Task Lists
 

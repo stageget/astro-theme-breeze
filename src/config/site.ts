@@ -74,26 +74,28 @@ const site = {
 
   // --- UI Labels ---
   // Customize these values to change the text displayed on pages
+  // --- UI Labels ---
+  // 這裡控制網站各個角落顯示的中文文字
   labels: {
-    postsTitle: "Writing",
-    postsDescription: "Notes, thoughts, and technical musings",
-    projectsTitle: "Projects",
-    projectsDescription: "Small tools built for fun or to solve real problems.",
-    friendsTitle: "Friends",
-    friendsDescription: "Like-minded folks around the web.",
-    toolsTitle: "Stack",
-    aboutTitle: "About",
-    aboutDescription: "About this site and its author",
-    backToPosts: "Back to posts",
-    goHome: "Go Home",
-    notFoundTitle: "Page not found",
+    postsTitle: "技術筆記",
+    postsDescription: "記錄開發過程中的踩坑經驗與生活點記",
+    projectsTitle: "我的專案",
+    projectsDescription: "將靈感轉化為代碼的實驗場。",
+    friendsTitle: "技術夥伴",
+    friendsDescription: "在網路世界中一起交流、學習的朋友們",
+    toolsTitle: "工具箱",
+    aboutTitle: "關於我",
+    aboutDescription: "關於阿雪的開發故事與生活目標",
+    backToPosts: "返回文章列表",
+    goHome: "回到首頁",
+    notFoundTitle: "哎呀！頁面迷路了",
     notFoundDescription:
-      "The page you're looking for may have been removed or the link is broken.",
-    endOfPost: "End of Post",
-    tableOfContents: "Table of Contents",
-    searchPlaceholder: "Search posts, tags, or commands...",
-    searchNavigate: "Navigate",
-    commentSuccess: "Comment submitted",
+      "您尋找的頁面可能已經移動或被刪除，請確認網址是否正確。",
+    endOfPost: "— 完 —",
+    tableOfContents: "文章目錄",
+    searchPlaceholder: "搜尋文章、標籤或指令...",
+    searchNavigate: "前往",
+    commentSuccess: "留言已成功送出",
   },
 
   ogImage: "/og-image.png",
