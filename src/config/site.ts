@@ -1,47 +1,53 @@
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
-    description: "A minimal Astro theme for personal websites",
-    author: "Your Name",
+    title: "Brandon的開發日誌",
+    description: "紀錄一些工作上或是下班後的Side Project分享心得。",
+    author: "Brandon",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
-    lang: "en",
+    lang: "zh-TW",
   },
 
   // --- Navigation ---
   // subtitle: decorative label shown below the name (uppercase, small text)
   navigation: [
-    { name: "Home", subtitle: "Index", href: "/" },
-    { name: "Writing", subtitle: "Blog", href: "/posts" },
-    { name: "Projects", subtitle: "Works", href: "/projects" },
-    { name: "Friends", subtitle: "Links", href: "/friends" },
-    { name: "About", subtitle: "Me", href: "/about" },
+    { name: "首頁", subtitle: "Index", href: "/" },
+    { name: "技術筆記", subtitle: "Blog", href: "/posts" },
+    { name: "我的專案", subtitle: "Works", href: "/projects" },
+    // { name: "Friends", subtitle: "Links", href: "/friends" },
+    { name: "關於我", subtitle: "Me", href: "/about" },
   ],
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
-    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
+    { name: "GitHub", href: "https://github.com/stageget", icon: "mdi:github" },
+    { name: "Email", href: "qwerty821225@gmail.com", icon: "mdi:email" },
   ],
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
+    greeting: "👋 Hello, I'm Brandon",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
-      'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
+      "我是一名軟體工程師。<br />" +
+      '目前正在開發  <span class="font-medium text-foreground underline decoration-primary/30">衣起記 (ios App)</span>。<br /><br />' +
+      "這裡是我記錄技術踩坑與生活的地方。",
     cards: [
-      { icon: "mdi:explore", label: "Status", value: "Building something cool" },
-      { icon: "mdi:location", label: "Location", value: "Earth" },
+      {
+        icon: "mdi:explore",
+        label: "Status",
+        value: "正在開發”衣起記“ios App。",
+      },
+      { icon: "mdi:location", label: "Location", value: "Taiwan" },
     ],
   },
 
   // --- Footer ---
   footer: {
-    copyright: "© 2025 Breeze",
+    copyright: "© 2026 Brandon",
     builtWith: "Built with Astro",
   },
 
@@ -81,7 +87,8 @@ const site = {
     backToPosts: "Back to posts",
     goHome: "Go Home",
     notFoundTitle: "Page not found",
-    notFoundDescription: "The page you're looking for may have been removed or the link is broken.",
+    notFoundDescription:
+      "The page you're looking for may have been removed or the link is broken.",
     endOfPost: "End of Post",
     tableOfContents: "Table of Contents",
     searchPlaceholder: "Search posts, tags, or commands...",
